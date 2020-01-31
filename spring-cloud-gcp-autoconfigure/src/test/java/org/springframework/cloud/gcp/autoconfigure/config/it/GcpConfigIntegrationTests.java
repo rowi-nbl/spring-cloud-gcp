@@ -41,7 +41,7 @@ public class GcpConfigIntegrationTests {
 
 	@BeforeClass
 	public static void enableTests() {
-		assumeThat(System.getProperty("it.config")).isEqualTo("true");
+		// assumeThat(System.getProperty("it.config")).isEqualTo("true");
 	}
 
 	@After
